@@ -1,0 +1,159 @@
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+   font-family: 'Roboto',sans-serif;
+   font-style: normal;
+}
+
+ul[class],
+ol[class] {
+   padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+   margin: 0;
+}
+
+body {
+   min-height: 100vh;
+   scroll-behavior: smooth;
+   text-rendering: optimizeSpeed;
+   line-height: 1.5em;
+}
+
+ul[class],
+ol[class] {
+   list-style: none;
+}
+
+a:not([class]) {
+   text-decoration-skip-ink: auto;
+}
+
+img {
+   max-width: 100%;
+   display: block;
+}
+
+article > * + * {
+   margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+   font: inherit;
+}
+
+   body {
+	background-color: #E5E5E5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	border-radius: 8px;
+   top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+.size {
+	margin:0 auto;
+	padding-left: 1.2rem;
+	padding-right: 1.1rem;
+	text-align: center;
+}
+.modal-container {
+	height:397px;
+	background: #FFFAFA;
+}
+.header__logo {
+	margin: 15px auto;
+	width: 4rem;
+   height: 4rem;
+}
+.header__title {
+	margin-bottom: 6px;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 35px;
+   color: #56599C;
+}
+.header__subtitle {
+	margin-bottom: 12px;
+	font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   color: #000000;
+}
+input {
+	display: flex;
+	flex-direction: column;
+	padding-left: 2rem;
+	width: 245px;
+   height: 33px;
+	font-weight: 700;
+   font-size: 15px;
+   line-height: 18px;
+   color: rgba(0, 0, 0, 0.3);
+   border: none;
+}
+.input-wrapper__username {
+	margin-bottom: 1.1rem;
+	background: #C4C4C4 url(./images/user.png)7px 4px no-repeat;
+}
+.input-wrapper__password {
+	margin-bottom: 1.4rem;
+	background: #C4C4C4 url(./images/lock.png)7px 4px no-repeat;
+}
+
+button {
+	margin-bottom: 1rem;
+	width: 245px;
+   height: 33px;
+   background: #4277FD;
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 18px;
+   color: #FFFEFE;
+   border: none;
+}
+.footer__subtitle {
+	margin-bottom:1rem;
+	font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   color: #000000;
+}
+.footer__link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+   height: 2rem;
+   background: #FCFDFF;
+   border: 1px solid #000000;
+}
+.footer__link a {
+	font-weight: 700;
+   font-size: 15px;
+   line-height: 18px;
+   color: #111111;
+   text-decoration: none;
+	opacity: 0.8;
+}
